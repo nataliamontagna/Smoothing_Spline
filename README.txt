@@ -1,0 +1,8 @@
+Questo software accompagna la tesi "Matrici con struttura di rango nel problema della smoothing spline regression".
+Nella function "reinsch.m" si trova l'implementazione dell'algoritmo di Reinsch ed è possibile riprodurre gli esempi sull'utilizzo del metodo di Reinsch presenti nella sezione 1.2 della tesi tramite gli script "reinsch_esempio1.m", "reinsch_esempio2.m" e "reinsch_esempio3.m".
+Analogamente, è possibile replicare gli esempi di applicazione del metodo di Andersen e Chen della sezione 3.1.1 con gli script "andchen_esempio1.m", "andchen_esempio2.m" e "andchen_esempio3.m" che usano le function "smoothing_spline_reg.m", "andersen_chen.m" e i MEX files che chiamano i programmi in C "generators1.c", "potrf1.c" e "trsv1.c", scritti da Andersen.
+Questi tre MEX files vanno compilati usando i comandi "mex generators1.c -R2018a", "mex potrf1.c -R2018a" e "mex trsv1.c -R2018a".
+Dagli script "stability_esempio1.m", "stability_esempio2.m" e "stability_esempio3.m" che usano la function "stability_and.m" si ottengono i risultati sulla stabilità riportati nella sezione 3.1.2.
+Si possono riprodurre gli esempi della sezione 3.2 sul calcolo del parametro con GML e GCV con gli script "gml_gcv_esempio1.m", "gml_gcv_esempio2.m" e "gml_gcv_esempio3.m".
+Tramite gli script "andchen_reinsch_esempio1.m", "andchen_reinsch_esempio2.m" e "andchen_reinsch_esempio3.m" riproduciamo gli esempi della sezione 4.1, in cui confrontiamo le soluzioni ottenute con entrambi i metodi descritti nella tesi.
+Con gli script "test_tempi.m" e "test_tempi_par.m" otteniamo i tempi di esecuzione dei due metodi riportati nel capitolo 5.
