@@ -1,6 +1,6 @@
 Questo software accompagna la tesi "Matrici con struttura di rango nel problema della smoothing spline regression".
-Nella function "reinsch.m" si trova l'implementazione dell'algoritmo di Reinsch ed è possibile riprodurre gli esempi sull'utilizzo del metodo di Reinsch
-presenti nella sezione 1.2 della tesi tramite gli script "reinsch_esempio1.m", "reinsch_esempio2.m" e "reinsch_esempio3.m".
+Nella function "reinsch.m" si trova l'implementazione dell'algoritmo di Reinsch ed è possibile riprodurre gli esempi sull'utilizzo del metodo di Reinsch presenti nella 
+sezione 1.2 della tesi tramite gli script "reinsch_esempio1.m", "reinsch_esempio2.m" e "reinsch_esempio3.m".
 Analogamente, è possibile replicare gli esempi di applicazione del metodo di Andersen e Chen della sezione 3.1.1 con gli script "andchen_esempio1.m", 
 "andchen_esempio2.m" e "andchen_esempio3.m" che usano le function "smoothing_spline_reg.m", "andersen_chen.m" e i MEX files che chiamano i programmi in C 
 "generators1.c", "potrf1.c" e "trsv1.c", scritti da Andersen.
