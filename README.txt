@@ -5,4 +5,4 @@ Questi tre MEX files vanno compilati usando i comandi "mex generators1.c -R2018a
 Dagli script "stability_esempio1.m", "stability_esempio2.m" e "stability_esempio3.m" che usano la function "stability_and.m" si ottengono i risultati sulla stabilità riportati nella sezione 3.1.2.
 Si possono riprodurre gli esempi della sezione 3.2.2 sul calcolo del parametro con GML e GCV con gli script "gml_gcv_esempio1.m", "gml_gcv_esempio2.m" e "gml_gcv_esempio3.m".
 Tramite gli script "andchen_reinsch_esempio1.m", "andchen_reinsch_esempio2.m" e "andchen_reinsch_esempio3.m" riproduciamo gli esempi della sezione 4.1, in cui confrontiamo le soluzioni ottenute con entrambi i metodi descritti nella tesi.
-Con gli script "test_tempi.m" e "test_tempi_par.m" otteniamo i tempi di esecuzione dei due metodi riportati nel capitolo 5.
+Con gli script "test_tempi.m" e "test_tempi_par.m" otteniamo i tempi di esecuzione riportati nel capitolo 5.
